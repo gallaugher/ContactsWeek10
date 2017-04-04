@@ -35,7 +35,7 @@ class ListViewController: UIViewController {
             let destination = segue.destination as! DetailViewController
             let indexPath = tableView.indexPathForSelectedRow!
             destination.person = data.personArray[indexPath.row]
-        } else {
+        } else { // This is the code that fixed prob we had in class...
             if let selectedRow = tableView.indexPathForSelectedRow {
                 tableView.deselectRow(at: selectedRow, animated: true)
             }
