@@ -15,7 +15,6 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var emailField: UITextField!
     
     var person: Data.Person?
-    var comingFromRowClick: Bool?
 
     override func viewDidLoad() {
         super.viewDidLoad()
