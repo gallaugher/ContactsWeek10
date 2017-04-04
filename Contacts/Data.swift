@@ -1,5 +1,5 @@
 //
-//  Placeholder.swift
+//  Data.swift
 //  Contacts
 //
 //  Created by John Gallaugher on 3/27/17.
@@ -10,7 +10,7 @@ import Foundation
 import Alamofire
 import SwiftyJSON
 
-class Placeholder {
+class Data {
     
     struct Person {
         var name: String

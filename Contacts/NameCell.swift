@@ -26,7 +26,7 @@ class NameCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
-    func configureNameCell(personData: Placeholder.Person) {
+    func configureNameCell(personData: Data.Person) {
         nameField.text = personData.name
         companyNameField.text = personData.companyName
         phoneField.text = personData.phone
